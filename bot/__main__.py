@@ -106,8 +106,7 @@ async def start(client, message):
     reply_markup = buttons.build_menu(2)
     if await CustomFilters.authorized(client, message):
         start_string = f"""
-This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram.
-Type /{BotCommands.HelpCommand} to get a list of available commands
+Tʜɪs Bᴏᴛ Dᴏᴡɴʟᴏᴀᴅ Oɴʟʏ 18+ Cᴏɴᴛᴀɪɴ 💗
 """
         await send_message(message, start_string, reply_markup)
     else:
